@@ -1,0 +1,8 @@
+.Container_Menu{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color:#FEEA9F;
+    justify-content: space-between;
+    margin: 20px 5px;
+}
