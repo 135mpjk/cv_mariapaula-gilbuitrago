@@ -1,5 +1,5 @@
 import React from "react"
-import {Menu, Yo, Educacion, Habilidades, Herramientas, Proyectos, Hobbies, Idiomas, Contactame} from "../../componentes"
+import {Menu, Yo, Educacion, Habilidades, Herramientas, Hobbies, Idiomas, Contactame} from "../../componentes"
 
 const Sobremi = () =>{
     return (
@@ -9,7 +9,6 @@ const Sobremi = () =>{
      <Educacion/>
      <Habilidades/>
      <Herramientas/>
-     <Proyectos/>
      <Hobbies/>
      <Idiomas/>
      <Contactame/>

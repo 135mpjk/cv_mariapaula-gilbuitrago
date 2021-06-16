@@ -1,8 +1,9 @@
 .Container_Idiomas{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
-    background-color:#FEEA9F;
-    justify-content: space-between;
-    
+    background-color:#edebe2ff;
+    justify-content: space-between; 
 }
+

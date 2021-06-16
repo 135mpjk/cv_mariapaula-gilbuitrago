@@ -4,6 +4,7 @@ import '../utils/css/Hobbies.estilos.css'
 const Hobbies = () => {
     return (
         <div className="Container_Hobbies">
+             <div className="ContainerImage"><img src={Paula}/></div>
         <div className="ContainerText">
             <h1>Hobbies</h1>
             <p>Haru es un conejo enano blanco puro cubierto de un pelaje crema claro con grandes ojos
@@ -12,7 +13,7 @@ const Hobbies = () => {
                 horizontales de color azul claro que está atada por un pequeño cinturón color canela.
              </p>
          </div>
-         <div className="ContainerImage"><img src={Paula}/></div>
+        
  
          
          </div>

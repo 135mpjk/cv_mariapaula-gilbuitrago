@@ -2,7 +2,15 @@
     display: flex;
     width: 100%;
     height: auto;
-    background-color:#FEEA9F;
+    background-color:white;
     justify-content: space-between;
     
+}
+
+.botones{
+    background-color: white;
+    color: black;
+    border:none;
+    font-size: 30px;
+
 }

@@ -1,8 +1,9 @@
 .Container_Habilidades{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
-    background-color:#FEEA9F;
+    background-color:#FFFDFD;
     justify-content: space-between;
     
 }
