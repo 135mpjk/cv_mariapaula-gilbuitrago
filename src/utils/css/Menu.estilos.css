@@ -1,16 +1,45 @@
 .Container_Menu{
     display: flex;
     width: 100%;
-    height: auto;
-    background-color:white;
+    height:10vh;
+    background-color:#000E4F;
     justify-content: space-between;
+    align-items: center;
     
 }
 
-.botones{
-    background-color: white;
-    color: black;
-    border:none;
-    font-size: 30px;
+.opciones_menu{
+   display: flex;
+    justify-content: space-between;
+    width: 25%;
+    align-items: center;
+    padding-left: 4%;
 
+}
+
+.botones{
+    background:transparent;
+    color:#edebe2ff ;
+    border:none;
+    font-size: 23px;
+    font-family:'Poppins';
+
+}
+
+.clavesol_menu{
+    padding-right: 4%;
+    align-items: center;
+}
+
+.clavesol_menu img{
+    display: flex;
+    width:auto;
+    height: auto;
+    
+}
+
+@media only screen and (min-width:1400px){
+    .opciones_menu{
+        width: 30%;
+    }       
 }

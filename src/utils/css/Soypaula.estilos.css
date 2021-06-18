@@ -1,8 +1,57 @@
 .Container_Soypaula{
     display: flex;
     width: 100%;
-    height: auto;
-    background-color:#FEEA9F;
+    height: 90vh;
+    background-color:#000E4F;
     justify-content: space-between;
-    margin: 20px 5px;
+    align-items: center;
 }
+
+.imagen_yo{
+    width: 50%;
+    padding-left: 15%;
+}
+
+
+.imagen_yo img{
+    width: 400px;
+    height: auto;
+  }
+
+.soy_paula{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 15%;
+    padding-left: 8%;
+    margin-right: 0;
+}
+.alinear{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#hey{
+    width: 250px;
+    height: auto;
+}
+#soy{
+    width: 230px;
+    margin-right: 3%;
+}
+#g{
+    width: 50px;
+    height: auto;
+    padding-bottom: 5%;
+
+}
+.contenedor_redes_inicio{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+
+}
+

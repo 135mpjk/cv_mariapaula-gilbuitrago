@@ -1,20 +1,22 @@
 import React from 'react'
-import Paula from '../utils/imagenes/legoshi_haru.png'
+import Instagram from '../utils/imagenes/instagram.svg'
+import Facebook from '../utils/imagenes/facebook.svg'
+import Twitter from '../utils/imagenes/twitter.svg'
 import '../utils/css/Contactame.estilos.css'
 const Contactame = () => {
     return (
         <div className="Container_Contactame">
-        <div className="ContainerText">
-            <h1>Contactame</h1>
-            <p>Haru es un conejo enano blanco puro cubierto de un pelaje crema claro con grandes ojos
-                 marrones que son toda pupila. Por lo general, se la ha visto en la serie con su 
-                 uniforme escolar que consiste en una camisa blanca, con una pequeña pajarita y una falda larga blanca plisada con dos líneas 
-                horizontales de color azul claro que está atada por un pequeño cinturón color canela.
-             </p>
-         </div>
-         <div className="ContainerImage"><img src={Paula}/></div>
- 
-         
+            <h1 className="titulo_contacto">Contactame</h1>
+            <div className="contacto">
+                <div className="redes_sociales">
+                    <div className="iconos"><img src={Instagram}/></div>
+                    <div className="iconos"><img src={Facebook}/></div>
+                    <div className="twitter iconos"><img src={Twitter}/></div>
+                </div>
+                <div className="correo">
+                <h1 className="letra_correo">hola que ace</h1>
+                </div>
+            </div>    
          </div>
     )   
 }

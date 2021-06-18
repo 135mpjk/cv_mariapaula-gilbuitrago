@@ -3,6 +3,47 @@
     width: 100%;
     height: auto;
     background-color:#000E4F;
+    flex-direction: column;  
+    padding-bottom:3%; 
+}
+
+.contacto{
+    width: 100%;
+    display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+}
+.titulo_contacto{
+    color:#edebe2ff;
+    font-family:'Poppins';
+    padding:1% 0;
+}
+.redes_sociales{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding-left:10%;
+    padding-right: 20%;
+
+}
+.letra_correo{
+    color:#edebe2ff;
+    font-size: 30px;
+    font-family:'Poppins';
+}
+.iconos img{
+    width:60px ;
+    height: auto;
+  }
+  .twitter{
+      padding-top: 2%;
+  }
+.correo{
+    width:60%;
+}
+  @media only screen and (max-width:900px){
+    .iconos img{
+        width:50px;
+        height:auto;
+    }   
 }

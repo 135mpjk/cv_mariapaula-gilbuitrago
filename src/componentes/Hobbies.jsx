@@ -1,22 +1,22 @@
 import React from 'react'
-import Paula from '../utils/imagenes/legoshi_haru.png'
+import Piano from '../utils/imagenes/piano.svg'
 import '../utils/css/Hobbies.estilos.css'
 const Hobbies = () => {
     return (
         <div className="Container_Hobbies">
-             <div className="ContainerImage"><img src={Paula}/></div>
-        <div className="ContainerText">
-            <h1>Hobbies</h1>
-            <p>Haru es un conejo enano blanco puro cubierto de un pelaje crema claro con grandes ojos
-                 marrones que son toda pupila. Por lo general, se la ha visto en la serie con su 
-                 uniforme escolar que consiste en una camisa blanca, con una pequeña pajarita y una falda larga blanca plisada con dos líneas 
-                horizontales de color azul claro que está atada por un pequeño cinturón color canela.
-             </p>
-         </div>
-        
- 
-         
-         </div>
+            <div className="Container_piano">
+                 <img src={Piano}/>
+            </div>
+            <div className="informacion_hobbies letra_texto">
+                <h1 className="titulos">Más sobre mí</h1>
+                <p>Aparte de programar, me gusta mucho la música, desde los 12 años aprendí a tocar piano, 
+                    guitarra y actualmente estoy aprendiendo violín, aunque el conocimiento nunca termina y 
+                    falta bastante tiempo para poder perfeccionar estas habilidades. Otro tema de mi interés 
+                    son los idiomas, razón por la cual estoy aprendiendo chino mandarín, ya que saber idiomas 
+                    es una habilidad muy útil que complementa cualquier perfil.
+                </p>
+            </div>
+        </div>
     )   
 }
 export default Hobbies

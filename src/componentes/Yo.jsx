@@ -3,17 +3,16 @@ import Paula from '../utils/imagenes/legoshi_haru.png'
 import '../utils/css/Yo.estilos.css'
 const Yo = () => {
     return (
-        
         <div className="Container_Yo">
-        <div className="ContainerText">
-            <h1>Yo</h1>
-            <p>Haru es un conejo enano blanco puro cubierto de un pelaje crema claro con grandes ojos
-                 marrones que son toda pupila. Por lo general, se la ha visto en la serie con su 
-                 uniforme escolar que consiste en una camisa blanca, con una pequeña pajarita y una falda larga blanca plisada con dos líneas 
-                horizontales de color azul claro que está atada por un pequeño cinturón color canela.
+        <div className="informacion_yo letra_texto">
+            <p>Mi nombre es María Paula Gil Buitrago, tengo 17 años y en este momento me estoy formando como 
+                desarrollador (front-end) Junior en la institución educativa Kuepa. Me gusta el orden y la estructura, 
+                en los proyectos suelo dedicarles tiempo a los detalles, ya que estas pequeñas cosas pueden definir el 
+                éxito o el fracaso de un proyecto. También considero el trabajo en equipo un pilar fundamental a la hora 
+                de realizar proyectos, la buena comunicación puede llevar a crear ideas realmente buenas.
              </p>
          </div>
-         <div className="ContainerImage"><img src={Paula}/></div>
+         <div className="Container_foto"><img src={Paula}/></div>
  
          
          </div>

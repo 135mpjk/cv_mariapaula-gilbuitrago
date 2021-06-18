@@ -2,7 +2,42 @@
     display: flex;
     width: 100%;
     height: auto;
-    background-color:#FFFDFD;
+    background-color:#FFFDFD; 
     justify-content: space-between;
-    
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.Container_piano{
+    width: 40%;
+}
+.Container_piano img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .Container_piano img{
+        height: 100%;
+      }
+  }
+.informacion_hobbies{
+    width: 60%;
+    text-align: left;
+    align-items: center;
+    padding-right: 8%;
+    padding-left: 3%;
+}
+
+@media only screen and (max-width:950px){
+    .Container_Hobbies{
+        flex-direction: column;
+        justify-content: center;
+    }   
+    .Container_piano{
+        width: 70%;
+    }
+    .informacion_hobbies{
+        width: 95%;
+        text-align:center;
+    }
+
 }
