@@ -35,8 +35,9 @@ const GlobalStyle = createGlobalStyle`
 .nombres{
     color:#000E4F;
     font-family: Poppins;
-    font-size:23px;
+    font-size:22px;
     font-weight:600;
+    text-align:left;
 }
 body::-webkit-scrollbar{
     width:15px;
@@ -58,6 +59,15 @@ body::-webkit-scrollbar-thumb{
     font-family: 'Brushter';
     src: local('Brushter'), url(${TitlesFont}) format('woff');
     font-style: normal;
+}
+
+@media only screen and (max-width:900px){
+    .nombres{
+        font-size:19px;
+    }
+    .tamaño{
+       padding-right:40%;
+    }
 }
 `;
 

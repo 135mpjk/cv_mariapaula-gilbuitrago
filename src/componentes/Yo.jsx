@@ -1,5 +1,5 @@
 import React from 'react'
-import Paula from '../utils/imagenes/legoshi_haru.png'
+import Paula from '../utils/imagenes/foto_cv.jpeg'
 import '../utils/css/Yo.estilos.css'
 const Yo = () => {
     return (

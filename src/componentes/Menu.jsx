@@ -13,7 +13,7 @@ const Menu = () => {
             <Link to="/Sobremi">
                 <button className="botones">Sobre mí</button>
             </Link>
-            < ExternalLink  href = "https://www.flaticon.es/icono-gratis/instagram_725339" > 
+            < ExternalLink  href = "https://github.com/135mpjk?tab=repositories" > 
                 <button className="botones" type="button">Proyectos</button> 
             </ExternalLink >
             </div>

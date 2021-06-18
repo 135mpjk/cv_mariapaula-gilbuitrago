@@ -54,4 +54,53 @@
     justify-content:space-around;
 
 }
+@media only screen and (min-width:1400px){
+    .Container_Soypaula{
+        height: 92vh;
+    }
+    .soy_paula{
+        padding-left: 0;
+    }
+    
+
+}
+@media only screen and (max-width:1100px){
+    .Container_Soypaula{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }   
+    .imagen_yo img{
+        width: 250px;
+        height: auto;
+      }
+    .imagen_yo{
+        padding-left: 0;
+    }
+
+    .soy_paula{
+        
+    }
+      #hey{
+        padding-top:2%;
+        width: 200px;
+        height: auto;
+        padding-left: 6%;
+    }
+    #soy{
+        width: 150px;
+        margin-right: 3%;
+        padding-left: 6%;
+    }
+    #g{
+        width: 30px;
+        height: auto;
+        padding-bottom: 5%;
+    }
+    #il{
+        width: 15px;
+        height: auto;
+    }
+}
 

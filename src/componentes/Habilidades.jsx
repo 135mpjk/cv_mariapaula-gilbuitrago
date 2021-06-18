@@ -1,5 +1,6 @@
 import React from 'react'
-import Paula from '../utils/imagenes/cincoraya.svg'
+import una from '../utils/imagenes/unaraya.svg'
+import dos from '../utils/imagenes/dosraya.svg'
 import '../utils/css/Habilidades.estilos.css'
 const Habilidades = () => {
     return (
@@ -10,13 +11,13 @@ const Habilidades = () => {
                     <div className="">
                         <h1 className="nombres">HTML(5)</h1>
                     </div>
-                    <div className="ContainerImage"><img src={Paula}/></div>
+                    <div className="ContainerImage"><img src={dos}/></div>
                 </div>
                 <div className="Container_Porcentaje">
                     <div className="">
                         <h1 className="nombres">Javascript</h1>
                     </div>
-                    <div className="ContainerImage"><img src={Paula}/></div>
+                    <div className="ContainerImage"><img src={dos}/></div>
                 </div>
             </div>
             <div className="Container_Cincuenta">
@@ -24,13 +25,13 @@ const Habilidades = () => {
                     <div className="">
                         <h1 className="nombres">CSS(3)</h1>
                     </div>
-                    <div className="ContainerImage"><img src={Paula}/></div>
+                    <div className="ContainerImage"><img src={dos}/></div>
                 </div>
                 <div className="Container_Porcentaje">
                     <div className="">
                         <h1 className="nombres">React js</h1>
                     </div>
-                    <div className="ContainerImage"><img src={Paula}/></div>
+                    <div className="ContainerImage"><img src={una}/></div>
                 </div>
             </div>
             <div className="Container_Cincuenta">
@@ -38,7 +39,7 @@ const Habilidades = () => {
                     <div className="">
                         <h1 className="nombres">Boostrap Framework</h1>
                     </div>
-                    <div className="ContainerImage"><img src={Paula}/></div>
+                    <div className="ContainerImage"><img src={dos}/></div>
                 </div>
                 <div className="Container_Porcentaje">
                 </div>
