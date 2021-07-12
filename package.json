@@ -1,7 +1,8 @@
 {
+  "homepage":"https://135mpjk.github.io/trabajo_cv",
   "name": "trabajo_cv",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.14.1",
@@ -14,8 +15,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "styled-components": "^5.3.0",
-    "web-vitals": "^1.1.2",
-    "homepage":"http://135mpjk.github.io/trabajo_cv"
+    "web-vitals": "^1.1.2"
+
   },
   "scripts": {
     "predeploy":"npm run build",
