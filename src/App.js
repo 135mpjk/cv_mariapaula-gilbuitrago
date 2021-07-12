@@ -3,6 +3,7 @@ import GlobalStyle from './globalStyles';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import Home from "./pages/Home/Home"
 import Sobremi from "./pages/Sobremi/Sobremi"
+import React from 'react';
 
 
 function App() {
