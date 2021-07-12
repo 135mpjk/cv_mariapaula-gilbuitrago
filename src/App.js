@@ -8,7 +8,7 @@ import Sobremi from "./pages/Sobremi/Sobremi"
 function App() {
   return (
     <div className="App">
-     <Router>
+     <Router basename={process.env.PUBLIC_URL}>
      <GlobalStyle/>
      <Switch>
        <Route path="/" exact component={Home}/>
