@@ -15,7 +15,7 @@
     "react-scripts": "4.0.3",
     "styled-components": "^5.3.0",
     "web-vitals": "^1.1.2",
-    "homepage":"https://135mpjk.github.io/trabajo_cv"
+    "homepage":"http://135mpjk.github.io/trabajo_cv"
   },
   "scripts": {
     "predeploy":"npm run build",
